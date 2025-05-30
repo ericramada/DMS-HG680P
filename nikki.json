@@ -1,0 +1,22 @@
+{
+  "outbounds": [
+    {
+      "type": "trojan",
+      "tag": "NatanVPN",
+      "server": "id12.natanvpn.store",
+      "port": 443,
+      "password": "ccec9726-e0fb-4544-bc67-ccde51e95cc5",
+      "sni": "developers.instagram.com",
+      "udp": true,
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan"
+      }
+    }
+  ]
+}
